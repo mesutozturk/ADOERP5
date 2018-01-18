@@ -40,6 +40,22 @@ namespace AracYonetim.Entities.Models
         public string MuratD { get; set; }
         public string MuratBircan { get; set; }
 
+       
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+public string Mustafa { get; set; }
+
 
 
 
