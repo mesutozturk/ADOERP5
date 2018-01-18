@@ -15,17 +15,13 @@ namespace AracYonetim.Entities.Models
 
         [Range(1850, 2100, ErrorMessage = "Kurulus Yılı 1850-2100 arasında olabilir")]
 
-
         public int KurulusYili { get; set; }
-
         public string Ulke { get; set; }
 
         public string Kurucusu { get; set; }
 
 
         public byte[] Logo { get; set; } //varbinary
-
-
 
 
         public string Soner { get; set; }
@@ -39,7 +35,7 @@ namespace AracYonetim.Entities.Models
         public string Mesut { get; set; }
 
 
-        public string Omer { get; set; }
+        public string Omer { get; set; }//Ömer
 
 
     }
