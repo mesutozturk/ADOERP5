@@ -17,6 +17,7 @@ namespace AracYonetim.Entities.Models
         public string Ulke { get; set; }
         public string Kurucusu { get; set; }
         public byte[] Logo { get; set; } //varbinary
+        
 
 
 
@@ -31,5 +32,6 @@ namespace AracYonetim.Entities.Models
         public string Alican61 { get; set; }
 
         public string Mesut { get; set; }
+        public string MuratD { get; set; }
     }
 }
