@@ -22,7 +22,7 @@ namespace AracYonetim.Entities.Models
         public override string ToString() => $"{this.MarkaAdi}";
 
 
-        public string MuratBircan { get; set; }
 
+        public string MuratBircan { get; set; }
     }
 }
