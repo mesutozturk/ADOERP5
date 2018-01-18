@@ -12,12 +12,25 @@ namespace AracYonetim.Entities.Models
         [Required]
         [StringLength(50)]
         public string MarkaAdi { get; set; }
+
         [Range(1850, 2100, ErrorMessage = "Kurulus Yılı 1850-2100 arasında olabilir")]
+
         public int KurulusYili { get; set; }
         public string Ulke { get; set; }
+
         public string Kurucusu { get; set; }
+
         public byte[] Logo { get; set; } //varbinary
+        
+
+        public byte[] Logo { get; set; } //varbinary
+
+
+
+        public string Soner { get; set; }
+
         public virtual List<Arac> Araclar { get; set; } = new List<Arac>();
+
         public override string ToString() => $"{this.MarkaAdi}";
 
         public string Soner { get; set; }
@@ -29,5 +42,34 @@ namespace AracYonetim.Entities.Models
         public string Tugce { get; set; }
         public string MuratD { get; set; }
         public string MuratBircan { get; set; }
+
+       
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+public string Mustafa { get; set; }
+
+
+
+
+
+        public string Omer { get; set; }//Ömer
+
+
+
+
+
+
+        public string Nihat { get; set; }
     }
 }
