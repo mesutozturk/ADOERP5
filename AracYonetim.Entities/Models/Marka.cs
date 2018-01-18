@@ -33,10 +33,9 @@ namespace AracYonetim.Entities.Models
 
         public override string ToString() => $"{this.MarkaAdi}";
 
+        public string Soner { get; set; }
         public string Recep { get; set; }
-
         public string Alican61 { get; set; }
-
         public string Mesut { get; set; }
         public string MuratD { get; set; }
         public string MuratBircan { get; set; }
