@@ -33,5 +33,9 @@ namespace AracYonetim.Entities.Models
 
         public string Mesut { get; set; }
         public string MuratD { get; set; }
+        public string MuratBircan { get; set; }
+
+
+
     }
 }
