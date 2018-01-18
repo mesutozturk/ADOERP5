@@ -1,0 +1,1 @@
+﻿SELECT * FROM dbo.[Order Details] WHERE OrderID =11079
