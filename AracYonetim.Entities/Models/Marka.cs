@@ -25,7 +25,7 @@ namespace AracYonetim.Entities.Models
         public string Alican61 { get; set; }
         public string Mesut { get; set; }
 
-        public string Mesut { get; set; }    
+            
         public string Tugce { get; set; }
         public string MuratD { get; set; }
         public string MuratBircan { get; set; }
