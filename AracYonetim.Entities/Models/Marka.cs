@@ -20,5 +20,9 @@ namespace AracYonetim.Entities.Models
 
         public virtual List<Arac> Araclar { get; set; } = new List<Arac>();
         public override string ToString() => $"{this.MarkaAdi}";
+
+
+
+        public int Zinnet { get; set; }
     }
 }
