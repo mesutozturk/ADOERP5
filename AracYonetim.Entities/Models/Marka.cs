@@ -25,7 +25,9 @@ namespace AracYonetim.Entities.Models
 
 
 
+
         public int Zinnet { get; set; }
+
 
         public string Alican61 { get; set; }
         public string Mesut { get; set; }
