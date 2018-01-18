@@ -20,8 +20,11 @@ namespace AracYonetim.Entities.Models
 
         public string Kurucusu { get; set; }
 
+        public byte[] Logo { get; set; } //varbinary
+        
 
         public byte[] Logo { get; set; } //varbinary
+
 
 
         public string Soner { get; set; }
@@ -30,9 +33,16 @@ namespace AracYonetim.Entities.Models
 
         public override string ToString() => $"{this.MarkaAdi}";
 
+        public string Recep { get; set; }
+
         public string Alican61 { get; set; }
 
         public string Mesut { get; set; }
+        public string MuratD { get; set; }
+        public string MuratBircan { get; set; }
+
+
+
 
 
         public string Omer { get; set; }//Ömer
